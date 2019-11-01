@@ -31,9 +31,12 @@ Public Class MyCustomDictionary
 	Public Sub New(ByVal dictionaryPath As String, ByVal culture As CultureInfo)
 		MyBase.New(dictionaryPath, culture)
 	End Sub
-	Public Overrides ReadOnly Property Loaded() As Boolean
-		Get
-			Return True
-		End Get
-	End Property
+Public Overrides Property Loaded As Boolean
+        Get
+            Return True
+        End Get
+        Protected Set(value As Boolean)
+            MyBase.Loaded = value
+        End Set
+    End Property
 End Class
