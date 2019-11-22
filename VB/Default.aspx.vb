@@ -35,8 +35,5 @@ Public Overrides Property Loaded As Boolean
         Get
             Return True
         End Get
-        Protected Set(value As Boolean)
-            MyBase.Loaded = value
-        End Set
     End Property
 End Class
