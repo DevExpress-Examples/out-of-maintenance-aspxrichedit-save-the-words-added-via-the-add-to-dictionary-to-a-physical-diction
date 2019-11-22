@@ -31,7 +31,7 @@ Public Class MyCustomDictionary
 	Public Sub New(ByVal dictionaryPath As String, ByVal culture As CultureInfo)
 		MyBase.New(dictionaryPath, culture)
 	End Sub
-Public Overrides Property Loaded As Boolean
+Public Overrides ReadOnly Property Loaded As Boolean
         Get
             Return True
         End Get
