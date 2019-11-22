@@ -13,6 +13,7 @@ Partial Public Class _Default
 	Protected Sub Page_Load(ByVal sender As Object, ByVal e As EventArgs)
 
 	End Sub
+	
 	Protected Sub ASPxButton1_Click(ByVal sender As Object, ByVal e As EventArgs)
 		Dim dic As SpellCheckerCachedCustomDictionary = TryCast(Session(ASPxRichEdit1.Settings.SpellChecker.Dictionaries(0).CacheKey), SpellCheckerCachedCustomDictionary)
 		Dim dictionary As New MyCustomDictionary()

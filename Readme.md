@@ -7,7 +7,7 @@
 # ASPxRichEdit - Save the words added via the "Add to Dictionary" to a physical dictionary
 
 
-Currently, ASPxRichEdit doesn't save words added by a user via the <em>"Add to Dictionary"</em> option in the physical dictionary file and stores these changes in a Session variable.<br><br>If it's necessary to save changes from the temporary dictionary stored in Session to a physical dictionary file on demand, you can accomplish this task programmatically, for example, on a button click. Get the temporary dictionary that has the SpellCheckerCachedCustomDictionary type from Session in the following way:<br>
+Currently, ASPxRichEdit does not save words added by a user via the <em>"Add to Dictionary"</em> option in the physical dictionary file and stores these changes in a Session variable.<br><br>If it's necessary to save changes from the temporary dictionary stored in Session to a physical dictionary file on demand, you can accomplish this task programmatically, for example, on a button click. Get the temporary dictionary that has the SpellCheckerCachedCustomDictionary type from Session in the following way:<br>
 
 
 ```cs
